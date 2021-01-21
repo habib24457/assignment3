@@ -50,14 +50,14 @@ function megaFriend(friendName){
 }
 
 
-var result = kilometerToMeter(4.2);
+var result = kilometerToMeter(2);
 console.log("After convertiing Kilometer to Meter = ",result);
 
-var totalBudget = budgetCalculator(2,3,-5);
+var totalBudget = budgetCalculator(2,3,5);
 console.log("Total Budget of watch,mobile and laptop = ",totalBudget);
 
-var totalCost = hotelCost(15);
-console.log("Total hotel cost = ",totalCost);
+var totalHotelCost = hotelCost(15);
+console.log("Total hotel cost = ",totalHotelCost);
 
 var names = ['Habib','Jishan','Rana','Rafiq','Shakil','RahmanHabib'];
 var longestName = megaFriend(names);
